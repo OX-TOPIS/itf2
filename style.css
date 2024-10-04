@@ -1,0 +1,108 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;  /* ทำให้ความสูงของ body เป็น 100% */
+    display: flex;
+    flex-direction: column; /* ใช้ flex-direction ถ้าต้องการ */
+}
+
+.container {
+    flex: 1;  /* ใช้พื้นที่ที่เหลือทั้งหมด */
+    display: flex;
+    align-items: center;    /* จัดให้อยู่กลางในแนวตั้ง */
+    flex-direction: column; /* ใช้ flex-direction ถ้าต้องการ */
+}
+
+
+.ing {
+    color: red;
+    text-align: center;
+  }
+
+/* .container{
+    display: flex;
+} */
+
+nav{
+    background-color: red;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mixue{
+    color: white;
+    text-align: center;
+    justify-items: center;
+    
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    border-style: dotted;
+    border-color: red;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: red;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button2{
+    background-color: white;
+    border: none;
+    color: #f44336;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+}
+
+a{
+    color: white;
+}
+
+p{
+    background-color: #f44336;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.a2{
+    color: #f44336;
+}
